@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">be_my_guide</string>
+    <string name="title_activity_home_page">home_page</string>
+    <string name="google_maps_API_key">AIzaSyD24rMV2xkBWFnU7qmU2aRB6UgBhGN9Jyk</string>
+    <string name="google_places_API_key">AIzaSyArCzLUbXT5bVBSQC32qT-QnX9452x9Z3U</string>
+    <string name="google_place_web_services">AIzaSyCCoeLO_z406BlUZ-xMBlC5Tu3QuBooABc</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="title_activity_about_us">about_us</string>
+    <string name="emaail"></string>
+</resources>

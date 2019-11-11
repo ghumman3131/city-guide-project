@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+
+    android:orientation="vertical"
+    tools:context="com.example.karan.be_my_guide.home_page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff"
+        android:elevation="70dp">
+
+    <ImageView
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:elevation="10dp"
+        android:onClick="open_drawer"
+        android:src="@drawable/list"
+        android:padding="10dp"
+        />
+    </RelativeLayout>
+
+
+    <ImageButton
+
+
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/maps"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:elevation="50dp"
+        android:onClick="maps"
+        app:srcCompat="@drawable/map"
+        />
+
+    <ImageButton
+
+        android:id="@+id/imageREC"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/recognaition"
+        android:onClick="imagerecognition"
+
+        android:elevation="40dp"/>
+
+    <ImageButton
+        android:id="@id/text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_weight="1"
+        android:background="#fff"
+        android:elevation="30dp"
+        android:onClick="textrecognition"
+        app:srcCompat="@drawable/textrec" />
+
+    <ImageButton
+
+        android:id="@+id/imageButton3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_weight="1"
+        android:background="#fff"
+        android:elevation="20dp"
+        android:onClick="translate"
+        app:srcCompat="@drawable/translate" />
+    <ImageButton
+
+        android:id="@+id/diary"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:src="@drawable/diary"
+        android:onClick="Diary"
+
+        android:elevation="10dp"
+        />
+
+
+
+</LinearLayout>

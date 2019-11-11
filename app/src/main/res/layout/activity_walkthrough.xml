@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.karan.be_my_guide.walkthrough"
+    android:background="@drawable/holi">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/walkthrough"
+        android:layout_width="match_parent"
+        android:layout_height="510dp">
+
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/mdots"
+        android:layout_below="@+id/walkthrough"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@android:color/transparent"
+
+            android:text="back"
+            android:textColor="#fff"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="210dp"
+            android:background="@android:color/transparent"
+            android:text="next"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+</RelativeLayout>

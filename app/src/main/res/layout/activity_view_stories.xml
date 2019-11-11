@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_diary"
+    tools:context="com.example.karan.be_my_guide.Diary">
+
+
+    <TextView
+        android:background="@drawable/shapes"
+        android:id="@+id/date"
+        android:textColor="#000"
+        android:layout_below="@+id/pick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Date"
+        android:padding="10dp"
+        />
+    <TextView
+        android:background="@drawable/shapes"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:hint="title "
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:textColor="#f70606"
+        android:textColorHint="#000"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:background="@drawable/shapes"
+        android:gravity="top"
+        android:id="@+id/description"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:hint="share your expirence"
+        android:textColorHint="#000"
+        android:layout_margin="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/pic"
+        android:layout_below="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/picked_image"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

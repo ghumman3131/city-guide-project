@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_diary"
+    tools:context="com.example.karan.be_my_guide.Diary">
+
+    <TextView
+        android:id="@+id/story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="16dp"
+        android:shadowColor="#000"
+        android:text="Put A Story"
+
+        android:textColor="#ff0206"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/date"
+        android:layout_below="@+id/story"
+        android:background="@drawable/shapes"
+        android:padding="10dp"
+        android:text="pick  A date "
+        android:textAllCaps="true"
+        android:textColor="#f7f5f5"
+        android:textSize="20dp" />
+    <EditText
+        android:background="@drawable/shapes"
+        android:id="@+id/date"
+        android:textColor="#ffe600"
+        android:layout_below="@+id/pick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+
+        />
+    <EditText
+        android:background="@drawable/shapes"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:hint="  title "
+        android:padding="5dp"
+        android:textAllCaps="true"
+        android:textColor="#ebf706"
+        android:textColorHint="#fff"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/title"
+        android:background="@drawable/shapes"
+        android:gravity="top"
+        android:hint="  share your expirence"
+        android:padding="5dp"
+        android:textColor="#fcf9f9"
+        android:textColorHint="#fff" />
+
+    <LinearLayout
+        android:id="@+id/pic"
+        android:layout_below="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttons_layout"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/picked_image"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/buttons_layout">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:onClick="addpics"
+            android:text="add pictures"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="98dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="save story "
+            android:textColor="#000"
+            android:onClick="save"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

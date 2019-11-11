@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0f5"
+    tools:context="com.example.karan.be_my_guide.privacy_policy">
+    <LinearLayout
+        android:id="@+id/privacy"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+<TextView
+    android:textColor="#fd0404"
+    android:id="@+id/pri"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="   Privacy Policy"
+
+    android:textSize="50dp"
+    />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lock"
+        android:layout_below="@+id/privacy"
+        android:layout_width="match_parent"
+        android:layout_height="219dp">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:src="@drawable/privacy1" />
+    </LinearLayout>
+<TextView
+    android:id="@+id/des"
+    android:layout_below="@+id/lock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="#000"
+    android:textSize="17dp"
+    android:text="We collect information to provide better services to all of our users – from figuring \n out basic stuff like which language you speak.\n  Device event information such as crashes, system activity, hardware settings, browser type, browser language, the date and time of your request and referral URL cookies \n that may uniquely identify your browser or your Google Account.\n we dont save any photos of user except dairy part that image saave to firebase database and held safe, we dont sell any type data to anyone or third party."/>
+</RelativeLayout>

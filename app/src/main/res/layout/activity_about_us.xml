@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0f5"
+    tools:context="com.example.karan.be_my_guide.about_us">
+    <LinearLayout
+        android:id="@+id/linearLAyout1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    <TextView
+        android:textColor="#ff0000"
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="         About Us"
+        android:textSize="45dp"
+        android:padding="15dp"
+        />
+    </LinearLayout>
+
+
+    <ImageView
+
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLAyout1"
+        android:scaleX="1."
+        android:src="@drawable/earth2311" />
+    <TextView
+
+        android:padding="5dp"
+        android:layout_below="@+id/image"
+        android:id="@+id/aim"
+        android:text="         AIM OF THE PROJECT  "
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+
+        android:id="@+id/describe"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:text="The aim of this project is to help tourist came from different places, tourist click image of the object or sign and the application return the result of that image.
+We aim to develop an android based solution for tourist which will provide users the detail of the travellers point going to a destination (local or out of the city). This project is just an effort to make these two ends meet, tourist and popular place to discover. The users initiating and add their personal email id and password to register."
+        android:layout_below="@id/aim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

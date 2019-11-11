@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.karan.be_my_guide.map"
+    android:background="@drawable/girl">
+    <TextView
+    android:background="#c3f2f7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#000"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:textSize="25dp"
+    android:text=" Enter To Explore World in your own way "
+    android:id="@+id/textView3" />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:elevation="25dp"
+        android:onClick="open_maps"
+        android:shadowColor="#000"
+        android:shadowDx="1.253"
+        android:shadowDy="1.2563"
+        android:shadowRadius="1.25636"
+        android:text="MAPS"
+        android:textColor="#000" />
+</RelativeLayout>
